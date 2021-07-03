@@ -1,0 +1,13 @@
+# black hole of files
+node_modules/
+
+# build files
+dist/
+tsconfig.tsbuildinfo
+
+# sensitive data
+.env
+
+# lock files
+pacakge-lock.json
+yarn.lock

@@ -1,0 +1,33 @@
+{
+  "name": "--enter-the-project-name-here",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && node .",
+    "dev": "npm run ts-node-dev ./src/main.ts",
+    "build": "tsc -b src",
+    "build:clean": "tsc -b src --clean",
+    "build:watch": "tsc -b src -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "--Enter the author name here",
+  "license": "--Enter the license symbol here",
+  "dependencies": {
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
