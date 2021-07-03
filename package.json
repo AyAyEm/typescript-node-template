@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node .",
     "dev": "ts-node-dev --compiler ttypescript --project ./src/tsconfig.json ./src/main.ts",
-    "build": "ttsc -b src",
+    "build": "ttsc -b src && npm run copyfiles",
     "build:start": "npm run build && npm run start",
     "build:clean": "ttsc -b src --clean && npm run build",
     "build:watch": "ttsc -b src -w",
@@ -20,6 +20,7 @@
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
+    "copyfiles": "^2.4.1",
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^12.3.1",
