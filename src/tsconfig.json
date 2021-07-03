@@ -2,7 +2,16 @@
   "extends": "../tsconfig",
   "compilerOptions": {
     "lib": ["ES2019"],
-    "esModuleInterop": true,
+    "baseUrl": "./",
     "outDir": "../dist",
-  }
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ],
+    "paths": {
+      "@root/*": ["./*"]
+    }
+  },
+  "include": [".", "./**.json", "./**.d.ts"],
+  "exclude": ["./**/tsconfig.json"]
 }

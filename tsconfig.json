@@ -10,17 +10,6 @@
     "useDefineForClassFields": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@root/*": ["./*"]
-    }
-  },
-  "include": [
-    "src",
-    "src/**.json"
-  ],
-  "exclude": [
-    "src/**/tsconfig.json"
-  ]
+    "resolveJsonModule": true
+  }
 }
