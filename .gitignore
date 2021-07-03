@@ -9,5 +9,5 @@ tsconfig.tsbuildinfo
 .env
 
 # lock files
-pacakge-lock.json
+package-lock.json
 yarn.lock
