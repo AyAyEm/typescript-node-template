@@ -9,6 +9,7 @@
       { "transform": "typescript-transform-paths", "afterDeclarations": true }
     ],
     "paths": {
+      "#root": ["./"],
       "#root/*": ["./*"]
     }
   },
