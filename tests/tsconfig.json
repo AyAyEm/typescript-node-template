@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ],
+    "paths": {
+      "#root": ["../src"],
+      "#root/*": ["../src/*"]
+    }
+  }
+}
