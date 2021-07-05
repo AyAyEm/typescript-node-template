@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["src"],
+  "out": "./docs",
+  "excludeExternals": true,
+  "readme": "README.md",
+  "tsconfig": "src/tsconfig.json"
+}

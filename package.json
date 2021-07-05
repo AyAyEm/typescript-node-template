@@ -13,7 +13,7 @@
     "lint": "eslint src",
     "test": "jest ./tests",
     "test:watch": "jest ./tests --watch",
-    "typedoc": "typedoc src"
+    "typedoc": "typedoc"
   },
   "keywords": [],
   "author": "--Enter the author name here",
