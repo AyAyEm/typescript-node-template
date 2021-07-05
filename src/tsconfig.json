@@ -13,6 +13,6 @@
       "#root/*": ["./*"]
     }
   },
-  "include": [".", "./**.json", "./**.d.ts"],
+  "include": [".", "./**.json"],
   "exclude": ["./**/tsconfig.json"]
 }
