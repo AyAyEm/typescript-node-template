@@ -11,7 +11,8 @@
     "build:clean": "ttsc -b src --clean && npm run build",
     "build:watch": "ttsc -b src -w",
     "test": "jest ./tests",
-    "test:watch": "jest ./tests --watch"
+    "test:watch": "jest ./tests --watch",
+    "typedoc": "typedoc src"
   },
   "keywords": [],
   "author": "--Enter the author name here",
@@ -32,6 +33,7 @@
     "ts-jest": "^27.0.3",
     "ts-node-dev": "^1.1.8",
     "ttypescript": "^1.5.12",
+    "typedoc": "^0.21.2",
     "typescript": "^4.3.5",
     "typescript-transform-paths": "^3.0.2"
   }

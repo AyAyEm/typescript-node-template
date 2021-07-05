@@ -3,6 +3,7 @@ node_modules/
 
 # build files
 dist/
+docs/
 tsconfig.tsbuildinfo
 
 # sensitive data
