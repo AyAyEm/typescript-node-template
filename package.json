@@ -10,6 +10,7 @@
     "build:start": "npm run build && npm run start",
     "build:clean": "ttsc -b src --clean && npm run build",
     "build:watch": "ttsc -b src -w",
+    "lint": "eslint src",
     "test": "jest ./tests",
     "test:watch": "jest ./tests --watch",
     "typedoc": "typedoc src"
